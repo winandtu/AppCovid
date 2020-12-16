@@ -6,4 +6,4 @@ n= input("ingresa tu nombre: ")
 if(n=="Danilo"):
     print("te llamas daniloytytytytyrerereweweioioio")
 else:
-    print("No te llamas Danilo tienes otro nombre")
+    print("No te llamas Danilo tienes otro sdfdffffff")
