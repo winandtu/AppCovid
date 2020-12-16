@@ -4,6 +4,6 @@ print("Hola elimine un archivo y voy hacer un nuevo commit")
 n= input("ingresa tu nombre: ")
 
 if(n=="Danilo"):
-    print("te llamas daniloytytytytyrerereweweioioio")
+    print("te llamas Andres")
 else:
     print("No te llamas Danilo tienes otro sdfdffffff")
