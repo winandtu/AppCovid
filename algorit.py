@@ -23,7 +23,7 @@ def Preguntas_Diagnostico():
     return Fila
     
 while (IngresarPaciente!="salir"):
-    print("BIENVENIDO A LA PRECONSULTA")
+    print("BIENVENIDO A LA PECONSULTA")
     PRINT("POR FAVOR RESPONDA A LAS PREGUNTAS CON SI O NO EN MINUSCULAS")
     IngresarPaciente=input("¿Desea ingresar un nuevo paciente si o no?\n>>")
     if(IngresarPaciente=="si"):
