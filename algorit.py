@@ -24,7 +24,7 @@ def Preguntas_Diagnostico():
     
 while (IngresarPaciente!="salir"):
     print("BIENVENIDO A LA PrECONSULTA")
-    PRINT("POR FAVOR RESPONDA A LAS PREGUNTAS CON SI O NO EN MINUSCULAS")
+    print("POR FAVOR RESPONDA A LAS PREGUNTAS CON SI O NO EN MINUSCULAS")
     IngresarPaciente=input("¿Desea ingresar un nuevo paciente si o no?\n>>")
     if(IngresarPaciente=="si"):
         DatosRigor.append((Datos_Paciente()))
