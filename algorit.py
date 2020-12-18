@@ -1,9 +1,12 @@
-print("Hola elimine un archivo y voy hacer un nuevo commit")
+import numpy as np
+entrada = input("ingrese la palabra: ")
+pali = np.array([entrada])
+pali = np.append(pali, entrada)
 
+def palindromo():
+  if (pali[0]) == (pali[0])[::-1]:
+    print("palindromo")
+  else:
+    print("no es palindromo")
 
-n= input("ingresa tu nombre: ")
-
-if(n=="Danilo"):
-    print("te llamas danilo")
-else:
-    print("No te llamas Danilo")
+palindromo()
