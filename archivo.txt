@@ -1,1 +1,89 @@
-Hola aqui puedes añadir lo que quieras sin preocupacion de que se dañe el codigo y que se suba a git hub,,
+import numpy as np
+
+
+DatosRigor=[]
+IngresarPaciente= "si"
+#Nombre=input("Ingrese el nombre del paciente:\n")
+#Cedula=int(input("Ingrese el numero de cedula:\n"))
+
+def Datos_Paciente():
+    Nombre=input("Ingrese el nombre del paciente:\n")
+    Cedula=int(input("Ingrese el numero de cedula:\n"))
+    Fila=[Nombre, Cedula]
+    return Fila
+
+contador=0
+while (IngresarPaciente!="no"):
+    contador=contador+1
+    print("BIENVENIDO A LA PRECONSULTA")
+    print("POR FAVOR RESPONDA A LAS PREGUNTAS CON SI O NO EN MINUSCULAS")
+    IngresarPaciente=input("¿Desea ingresar un nuevo paciente si o no?\n>>")
+    if(IngresarPaciente=="si"):
+        for i in range(0,contador,1):
+            f=DatosRigor[i].append((Datos_Paciente()))
+        #DatosRigor.append((Datos_Paciente()))
+print(f)
+
+#--------------------------------------
+import numpy as np
+
+
+matriz= [110698,125147,257321,389010 ]
+
+#filas=np.size(matriz[0:,0])
+#columnas= np.size(matriz[0,0:])
+
+for i in range (0,4,1):
+    print(matriz[i])
+#---------------------------------------------
+#Creacion base de datos probando
+paciente= int(input("Ingrese el numero de pacientes que se registraran este dia: "))
+datos= 2
+
+Bd= []
+
+for i in range(0,paciente):
+    Bd.append([])
+    for j in range(datos):
+        setDatos= input("Nombre {}, columna{}: ".format(i, j+1))
+        Bd[i].append(setDatos)
+        
+print()
+
+for paciente in Bd:
+    print("[", end= " ")
+    for k in paciente:
+        print("{}".format(k), end= " ")
+        print("]")
+print()
+
+
+
+
+
+
+
+ if(DiagnosticoPrevio[0][i]=="si"):
+            #contador+=1
+            y= "Alta probabilidad"
+        elif(DiagnosticoPrevio[0][i]=="no"):
+            y= "Baja probabilidad"
+        else:
+            y= "Probabilidad media"
+    print(y)
+
+
+
+
+
+
+
+
+
+    while(IngresarPaciente=="si"):
+    c=c+1
+    Nombre=input("\n"+"Nombre: ")
+    Cedula=int(input("Número de cedula: "))
+    Sexo=input("Sexo (M o F): ")
+    Edad=int(input("Edad: "))
+    Temperatura=int(input("Temperatura: "))
