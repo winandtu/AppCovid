@@ -1,0 +1,11 @@
+
+--------------------------------------------------------------------------------------------------
+                                        INFORMACION
+
+Hemos desarrollado un programa que pregunta por 6 sintomas, 
+3 sintomas que generalmente se presentan en los portadores del COVID-19 
+y 3 que son comunes entre la influenza el resfriado comun y el COVID-19. 
+Basados en las respuestas y con un criterio establecido retornamos los nombres 
+de los pacientes en 3 categoría dependiendo de la probabilidad de haber sido contagiados: 
+Alta, Media y Baja probabilidad, tambien retorna un estudio estadístico con graficas por cada categoria. 
+-----------------------------------------------------------------------------------------------------
