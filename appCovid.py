@@ -20,10 +20,10 @@ def AppCoron():
 
     print("....................................................")
     print("\nBIENVENIDO A LA PRECONSULTA\n")
-  
+    print("Ingrese los siguientes datos del paciente:\n")
   #Funcion donde se registraran los datos generales
     def Datos_Paciente():
-        print("Ingrese los siguientes datos del paciente:\n")
+        print("\n")
         Nombre=input("Ingrese el nombre:\n>>")
         Cedula=int(input("Ingrese el numero de cedula:\n>>"))
         Sexo=input("Ingrese el sexo (M/F):\n")
@@ -32,6 +32,7 @@ def AppCoron():
         return Fila
 
     #Funcion donde se registraran los sintomas que tiene cada paciente
+    
     def Preguntas_Diagnostico():
         #Probabilidad de Covid-19 alta
         print('\nPor favor ingrese los siguientes datos del paciente '+'\n'+
